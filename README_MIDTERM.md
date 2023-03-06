@@ -19,10 +19,15 @@ From the above image it can be seen that the further a car is from the Lidar sen
 
 Below are different views caught by the sensors, which show the pickup truck with the trailer:
 - point cloud view:
+
 ![](img/Step_1/pcl_truck.png)
+
 - range image:
+
 ![](img/Step_1/2_show_range_image.png)
+
 - intensity layer from the BEV map:
+
 ![](img/Step_1/intens_frame_0.PNG)
 
 ## Section 2 : Birds-Eye View from Lidar PCL (ID_S2_EX1), (ID_S2_EX2), (ID_S2_EX3)
