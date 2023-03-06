@@ -13,6 +13,7 @@ Visualisation of the Lidar point-cloud:
 ![](img/Step_1/point_cloud.png)
 
 Examples of cars caught with Lidar on the street:
+
 ![](img/Step_1/cars.png)
 
 From the above image it can be seen that the further a car is from the Lidar sensor, the less discernable it becomes. The closer cars are composed of more points and more of their characteristics are observable. The closeset object is the truck with a trailer attached. The geometry of the car - a pick up truck is easy to recongize. The wheels as well as the wheel arches can be seen on the trailer. For the cars moving in the opposite direction the wheels are usually seen as well as the car frame - front, center and end pillars, roof and hoods. In cars which are further away either their overall bodywork is discernable and the side mirrors (either when the car is behind, or in front of the Waymo car). The geometry of the front and rear windows is also quite easy to recongize. 
@@ -35,12 +36,15 @@ Below are different views caught by the sensors, which show the pickup truck wit
 Conversion of sensor coordinates to BEV-map coordinates:
 
 - birds-eye view (BEV) perspective of the lidar point-cloud:
+
 ![](img/Step_2/1_bev.png)
 
 -  intensity layer of the BEV map:
+
 ![](img/Step_2/1_intensity.png)
 
 -  height layer of the BEV map
+
 ![](img/Step_2/2_height.png)
 
 ## Section 3 : Model-based Object Detection in BEV Image (ID_S3_EX1), (ID_S3_EX2)
@@ -84,6 +88,7 @@ The following parameters were extracted from the SFA3D model and added to the co
         configs.num_input_features = 4 
 
 Extraction of 3D bounding boxes from model response:
+
 ![](img/Step_3/labels_vs_detected_objects_frame_51.png)
 
 Model detections:
@@ -110,10 +115,13 @@ Model detections:
 ## Section 4 : Performance Evaluation for Object Detection
 
 Precision and recall:
+
 ![](img/Step_4/precision_recall.png)
 
 Precision and recall verification for ground truth labels used as objects:
+
 ![](img/Step_4/precision_recall_True.PNG)
 
 Performance measures:
+
 ![](img/Step_4/plots_False.png)
