@@ -50,6 +50,7 @@ Conversion of sensor coordinates to BEV-map coordinates:
 ## Section 3 : Model-based Object Detection in BEV Image (ID_S3_EX1), (ID_S3_EX2)
 
 The following parameters were extracted from the SFA3D model and added to the configs structure in load_configs_model:
+
         configs.K = 50
         configs.num_samples = None
         #configs.gpu_idx = 0
